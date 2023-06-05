@@ -23,7 +23,8 @@ app.use(express.json());  //parsing the json data
 
 app.use(cookieParser());
 
-app.use(cors({credentials:true , origin: "http://localhost:3001"}));  //for cors error importing as a middleware
+app.use(cors({credentials:true , origin: "http://localhost:3001"}));  
+//for cors error importing as a middleware
 
 
 const __filename = fileURLToPath(import.meta.url);// configurations to do changes in ES version for dirname
