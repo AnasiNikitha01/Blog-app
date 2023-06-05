@@ -23,7 +23,7 @@ app.use(express.json());  //parsing the json data
 
 app.use(cookieParser());
 
-app.use(cors({credentials:true , origin: "http://localhost:3001"}));  
+app.use(cors({credentials:true , origin: "https://stellar-brioche-8daad9.netlify.app"}));  
 //for cors error importing as a middleware
 
 
