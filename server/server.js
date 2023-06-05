@@ -23,7 +23,7 @@ app.use(express.json());  //parsing the json data
 
 app.use(cookieParser());
 
-app.use(cors({credentials:true , origin:["https://stellar-brioche-8daad9.netlify.app","http://localhost:3000"]}));  
+app.use(cors({credentials:true , origin:["https://starlit-palmier-b4414e.netlify.app","http://localhost:3000"]}));  
 //for cors error importing as a middleware
 
 
